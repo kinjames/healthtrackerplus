@@ -3,10 +3,8 @@
 HealthTracker+ is a comprehensive health and fitness mobile application aimed at helping users maintain a healthy lifestyle. The app provides features such as personalized workout plans, nutrition tracking, water intake monitoring, and progress analytics. It offers a user-friendly interface and reliable data management to assist users in achieving their health and fitness goals effectively.
 
 ## Team Members
-- [James Kofi Myers](link to your profile)
-- [Designer's Name](link to designer's profile)
-- [Developer's Name](link to developer's profile)
-- [Tester's Name](link to tester's profile)
+- James Kofi Myers.
+
 
 ## Project Description
 
@@ -61,13 +59,4 @@ HealthTracker+ is designed to simplify the process of staying healthy and fit. U
   - Implement necessary improvements and optimizations.
   - Prepare for the final presentation.
 
-## Mock-ups
-
-[Include images of the app's main screens, showcasing the user interface and user experience design.]
-
-## Video Presentation
-
-[Embed the video recording of your team's pitch presentation.]
-
-Feel free to reach out to any team member for more information or inquiries related to HealthTracker+.
 
