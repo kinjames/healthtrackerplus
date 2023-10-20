@@ -20,16 +20,14 @@ HealthTracker+ is designed to simplify the process of staying healthy and fit. U
 
 ## Technologies Used
 
-- **Frontend:** React Native
+- **Frontend:** React
 - **Backend:** Node.js with Express
 - **Database:** MongoDB
-- **UI/UX Design:** Adobe XD or Sketch
+- **UI/UX Design:** Adobe XD
 - **Version Control:** Git and GitHub
 
 ## Third-Party Services Used
 
-- Firebase Authentication
-- Twilio API (for SMS notifications, if applicable)
 - Google Maps API (for location-based services, if applicable)
 
 ## Challenges
