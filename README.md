@@ -23,7 +23,6 @@ HealthTracker+ is designed to simplify the process of staying healthy and fit. U
 - **Frontend:** React
 - **Backend:** Node.js with Express
 - **Database:** MongoDB
-- **UI/UX Design:** Adobe XD
 - **Version Control:** Git and GitHub
 
 ## Third-Party Services Used
