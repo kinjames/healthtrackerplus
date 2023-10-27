@@ -54,6 +54,5 @@ HealthTracker+ is designed to simplify the process of staying healthy and fit. U
   - Conduct extensive QA testing.
   - Gather feedback from beta testing phase.
   - Implement necessary improvements and optimizations.
-  - Prepare for the final presentation.
 
 
