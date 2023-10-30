@@ -1,6 +1,14 @@
-# HealthTracker+
+# HealthTracker+ Website
 
-HealthTracker+ is a comprehensive health and fitness mobile application aimed at helping users maintain a healthy lifestyle. The app provides features such as personalized workout plans, nutrition tracking, water intake monitoring, and progress analytics. It offers a user-friendly interface and reliable data management to assist users in achieving their health and fitness goals effectively.
+Welcome to the HealthTracker+ website repository! HealthTracker+ is a comprehensive health and fitness platform designed to help users achieve their fitness goals, monitor their progress, and access valuable health-related resources.
+
+## Features
+
+- **User-Friendly Interface:** Intuitive and easy-to-navigate web pages for seamless user experience.
+- **Comprehensive Content:** Informative articles, personalized workout plans, nutrition tracking, and community forums.
+- **Community Engagement:** Engage with a supportive community, share experiences, and participate in discussions.
+- **Personalized Dashboard:** User-specific dashboard displaying workout history, nutrition logs, and progress charts.
+- **Contact and Support:** Reach out to us through the contact form for any inquiries or support requests.
 
 ## Team Members
 - James Kofi Myers
