@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/healthtrackerplus/static/css/main.073c9b0a.css",
+    "main.js": "/healthtrackerplus/static/js/main.669f7b67.js",
+    "static/js/787.2fe83e7c.chunk.js": "/healthtrackerplus/static/js/787.2fe83e7c.chunk.js",
+    "index.html": "/healthtrackerplus/index.html",
+    "main.073c9b0a.css.map": "/healthtrackerplus/static/css/main.073c9b0a.css.map",
+    "main.669f7b67.js.map": "/healthtrackerplus/static/js/main.669f7b67.js.map",
+    "787.2fe83e7c.chunk.js.map": "/healthtrackerplus/static/js/787.2fe83e7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.669f7b67.js"
+  ]
+}
