@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./HomePage.css";
 import Navbar from "./Navbar";
 import LoginModal from "./LoginModal";
 
@@ -13,7 +14,7 @@ const HomePage = () => {
     <div className="home-page">
       <Navbar />
       <div className="content">
-        <h1>Welcome to Health Tracker</h1>
+        <h1>Welcome to Health Tracker+</h1>
         <p>
           Optimize your health journey with Your Health Tracker! Set goals,
           track progress, and stay motivated effortlessly. Click 'Get Started'

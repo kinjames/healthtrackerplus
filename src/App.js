@@ -1,12 +1,12 @@
 import "./App.css";
 import HomePage from "./HomePage";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
       <HomePage />
     </div>
   );
-};
+}
 
 export default App;
