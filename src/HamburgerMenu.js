@@ -1,20 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const HamburgerMenu = ({ isOpen, onClose }) => {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">Health Tracker</div>
-      <div className="navbar-links">
-        <Link to="/about">About Us</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/dashboard">Dashboard</Link>
-        <Link to="/contact">Contact Us</Link>
-        <Link to="/login">Log In</Link>
-        <Link to="/signup">Sign Up</Link>
+    <div className={`hamburger-menu ${isOpen ? "open" : ""}`}>
+      <div className="close-btn" onClick={onClose}>
+        &times;
       </div>
-    </nav>
+      <Link to="/about">About Us</Link>
+      <Link to="/blog">Blog</Link>
+      <Link to="/dashboard">Dashboard</Link>
+      <Link to="/contact">Contact Us</Link>
+      <Link to="/login">Log In</Link>
+      <Link to="/signup">Sign Up</Link>
+    </div>
   );
 };
 
-export default Navbar;
+export default HamburgerMenu;
