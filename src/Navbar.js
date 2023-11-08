@@ -5,7 +5,9 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Health Tracker+</div>
+      <div className="navbar-logo">
+        Health Tracker<span>+</span>
+      </div>
       <div className="navbar-links">
         <a href="google.com">About Us</a>
         <a href="google.com">Blog</a>
