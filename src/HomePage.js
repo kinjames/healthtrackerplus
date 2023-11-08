@@ -15,8 +15,9 @@ const HomePage = () => {
       <div className="content">
         <h1>Welcome to Health Tracker</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          tristique maximus erat, eu posuere arcu pellentesque sed.
+          Optimize your health journey with Your Health Tracker! Set goals,
+          track progress, and stay motivated effortlessly. Click 'Get Started'
+          and transform your well-being today!
         </p>
         <button onClick={toggleLoginModal}>Get Started</button>
         {isLoginModalOpen && <LoginModal onClose={toggleLoginModal} />}
