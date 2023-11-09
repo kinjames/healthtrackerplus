@@ -1,10 +1,7 @@
 .about-us {
-  padding-top: 11vh;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.8)
-  );
+  padding-top: 15vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(./images/about.jpg);
   text-align: center;
   padding-bottom: 2rem;
   color: white;
