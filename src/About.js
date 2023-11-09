@@ -1,8 +1,12 @@
 import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
     <div className="about">
+      <div className="about-us">
+        <h1>About Health Tracker+</h1>
+      </div>
       <section className="how-it-works">
         <h2>How Health Tracker Plus Works</h2>
         <p>
