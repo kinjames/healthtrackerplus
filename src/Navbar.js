@@ -9,7 +9,6 @@ const Navbar = () => {
         Health Tracker<span>+</span>
       </div>
       <div className="navbar-links">
-        <Link to="/HomePage">Home</Link>
         <Link to="/About">About Us</Link>
         <Link to="/Exercise">Exercise</Link>
         <Link to="/Dashboard">Dashboard</Link>

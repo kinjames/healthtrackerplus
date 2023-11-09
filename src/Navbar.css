@@ -1,4 +1,8 @@
 .navbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
   display: flex;
   width: 1440px;
   height: 10vh;
