@@ -6,7 +6,7 @@
   display: flex;
   width: 1440px;
   height: 10vh;
-  padding-inline: 2rem;
+  padding-inline: 1rem;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -51,4 +51,19 @@
 
 .navbar-links a:hover::before {
   opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .navbar-links {
+    display: none;
+    border: 2px solid red;
+  }
+
+  .navbar-logo {
+    font-size: 2rem;
+  }
 }
