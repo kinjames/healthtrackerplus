@@ -1,7 +1,8 @@
+// App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./AuthContext";
-import Layout from "./Layout"; // Import your layout component
+import Layout from "./Layout";
 import HomePage from "./HomePage";
 import About from "./About";
 import Exercise from "./Exercise";
