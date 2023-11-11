@@ -8,14 +8,17 @@ const About = () => {
         <h1>About Health Tracker+</h1>
       </div>
       <section className="how-it-works">
-        <h2>How Health Tracker Plus Works</h2>
-        <p>
-          Health Tracker Plus helps you monitor and improve your well-being by
-          providing tools to set health goals, track your progress, and stay
-          motivated. With our user-friendly interface and comprehensive
-          features, you can easily keep an eye on your exercise routines,
-          nutrition, and overall health.
-        </p>
+        <div className="how-it-works-text">
+          <h2>How Health Tracker Plus Works</h2>
+          <p>
+            Health Tracker Plus helps you monitor and improve your well-being by
+            providing tools to set health goals, track your progress, and stay
+            motivated. With our user-friendly interface and comprehensive
+            features, you can easily keep an eye on your exercise routines,
+            nutrition, and overall health.
+          </p>
+        </div>
+        <div className="how-it-wokrs-img"></div>
       </section>
 
       <section className="our-team">
