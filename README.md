@@ -6,7 +6,7 @@ Welcome to the HealthTracker+ website repository! HealthTracker+ is a comprehens
 
 - **User-Friendly Interface:** Intuitive and easy-to-navigate web pages for seamless user experience.
 - **Comprehensive Content:** Informative articles, personalized workout plans, nutrition tracking, and community forums.
-- **Community Engagement:** Engage with a supportive community, share experiences, and participate in discussions.
+- **Exercise Platform:** A wide range of exercises to select from.
 - **Personalized Dashboard:** User-specific dashboard displaying workout history, nutrition logs, and progress charts.
 - **Contact and Support:** Reach out to us through the contact form for any inquiries or support requests.
 
