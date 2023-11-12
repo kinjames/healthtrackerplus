@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       {/* Links for desktop view */}
       <div className="navbar-links desktop-links">
-        <Link to="/HomePage">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/About">About Us</Link>
         <Link to="/Exercise">Exercise</Link>
         <Link to="/Dashboard">Dashboard</Link>

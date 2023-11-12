@@ -14,7 +14,7 @@ const HamburgerMenu = ({ isOpen, onClose }) => {
       <div className="close-btn" onClick={onClose}>
         &times;
       </div>
-      <Link to="/HomePage" onClick={handleLinkClick}>
+      <Link to="/" onClick={handleLinkClick}>
         Home
       </Link>
       <Link to="/About" onClick={handleLinkClick}>
