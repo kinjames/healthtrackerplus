@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
+  const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -24,17 +26,24 @@ const Signup = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Perform signup logic here (e.g., send user data to a server)
-    // You can add your signup logic or API calls in this function
+
+    // Perform signup logic here
+    // For demonstration, we'll just log the details
     console.log("Username:", username);
     console.log("Email:", email);
     console.log("Password:", password);
     console.log("Confirm Password:", confirmPassword);
-    // Reset the form after submission
-    setUsername("");
-    setEmail("");
-    setPassword("");
-    setConfirmPassword("");
+
+    // Save signup details to local storage
+    const userDetails = {
+      username,
+      email,
+      password,
+    };
+    localStorage.setItem("userDetails", JSON.stringify(userDetails));
+
+    // Redirect to the login page after successful signup
+    navigate("/Login");
   };
 
   return (
@@ -83,6 +92,9 @@ const Signup = () => {
         </div>
         <button type="submit">Signup</button>
       </form>
+      <p>
+        Already have an account? <Link to="/Login">Log In</Link>
+      </p>
     </div>
   );
 };

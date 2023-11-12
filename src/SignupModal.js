@@ -1,24 +1,25 @@
-// LoginModal.js
+// SignupModal.js
 import React, { useState } from "react";
 import { useAuth } from "./AuthContext";
-import SignupModal from "./SignupModal";
 
-const LoginModal = ({ onClose }) => {
+const SignupModal = ({ onClose, onLoginClick }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const { login } = useAuth();
+  const { login, storeUserDetails } = useAuth();
 
-  const handleLogin = () => {
-    // Perform login logic and close the modal
+  const handleSignup = () => {
+    // Perform signup logic
+    // For simplicity, just log in the user after signup
     login();
+    storeUserDetails({ username, password });
     onClose();
   };
 
   return (
-    <div className="login-modal">
-      <h2>Login</h2>
+    <div className="signup-modal">
+      <h2>Sign Up</h2>
       <label>
-        Username or Email:
+        Username:
         <input
           type="text"
           value={username}
@@ -33,15 +34,12 @@ const LoginModal = ({ onClose }) => {
           onChange={(e) => setPassword(e.target.value)}
         />
       </label>
-      <button onClick={handleLogin}>Login</button>
+      <button onClick={handleSignup}>Sign Up</button>
       <p>
-        Don't have an account?{" "}
-        <span onClick={() => onClose(<SignupModal onClose={onClose} />)}>
-          Sign up
-        </span>
+        Already have an account? <span onClick={onLoginClick}>Log in</span>
       </p>
     </div>
   );
 };
 
-export default LoginModal;
+export default SignupModal;
