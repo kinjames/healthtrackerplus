@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -14,10 +16,24 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Perform authentication logic here (e.g., send username and password to a server)
-    // You can add your authentication logic or API calls in this function
-    console.log("Username:", username);
-    console.log("Password:", password);
+
+    // Check if the user exists in local storage
+    const storedUser = localStorage.getItem(username);
+
+    if (storedUser) {
+      const parsedUser = JSON.parse(storedUser);
+
+      // Check if the password is correct
+      if (parsedUser.password === password) {
+        // Authentication successful, redirect to the dashboard or another page
+        navigate("/dashboard"); // Change "/dashboard" to your desired route
+      } else {
+        alert("Incorrect password");
+      }
+    } else {
+      alert("User not found");
+    }
+
     // Reset the form after submission
     setUsername("");
     setPassword("");
@@ -49,6 +65,9 @@ const Login = () => {
         </div>
         <button type="submit">Login</button>
       </form>
+      <p>
+        Don't have an account? <Link to="/Signup">Sign Up</Link>
+      </p>
     </div>
   );
 };
