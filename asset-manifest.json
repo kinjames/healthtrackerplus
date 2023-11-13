@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/healthtrackerplus/static/css/main.df90d1ee.css",
-    "main.js": "/healthtrackerplus/static/js/main.359e1873.js",
+    "main.js": "/healthtrackerplus/static/js/main.351fa099.js",
     "static/js/787.2fe83e7c.chunk.js": "/healthtrackerplus/static/js/787.2fe83e7c.chunk.js",
     "static/media/about.jpg": "/healthtrackerplus/static/media/about.46360ac5c1e32ebfab70.jpg",
     "static/media/sign-up.jpg": "/healthtrackerplus/static/media/sign-up.15b3b03c661afa606cbb.jpg",
     "static/media/bg-image.jpg": "/healthtrackerplus/static/media/bg-image.112cb9c23e7d28daa236.jpg",
     "index.html": "/healthtrackerplus/index.html",
     "main.df90d1ee.css.map": "/healthtrackerplus/static/css/main.df90d1ee.css.map",
-    "main.359e1873.js.map": "/healthtrackerplus/static/js/main.359e1873.js.map",
+    "main.351fa099.js.map": "/healthtrackerplus/static/js/main.351fa099.js.map",
     "787.2fe83e7c.chunk.js.map": "/healthtrackerplus/static/js/787.2fe83e7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df90d1ee.css",
-    "static/js/main.359e1873.js"
+    "static/js/main.351fa099.js"
   ]
 }
