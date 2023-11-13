@@ -14,13 +14,22 @@ const HomePage = () => {
     setLoginModalOpen(!isLoginModalOpen);
   };
 
+  // const handleGetStarted = () => {
+  //   if (isLoggedIn) {
+  //     // User is logged in, navigate to Dashboard
+  //     navigate("/Dashboard");
+  //   } else {
+  //     // User is not logged in, open the login modal
+  //     setLoginModalOpen(true);
+  //   }
+  // };
   const handleGetStarted = () => {
     if (isLoggedIn) {
       // User is logged in, navigate to Dashboard
       navigate("/Dashboard");
     } else {
-      // User is not logged in, open the login modal
-      setLoginModalOpen(true);
+      // User is not logged in, navigate to the login page
+      navigate("/Login");
     }
   };
 
