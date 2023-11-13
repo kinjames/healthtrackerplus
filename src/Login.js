@@ -27,7 +27,7 @@ const Login = () => {
       // Check if the password is correct
       if (parsedUser.password === password) {
         // Authentication successful, redirect to the dashboard or another page
-        navigate("/dashboard"); // Change "/dashboard" to your desired route
+        navigate("/dashboard");
       } else {
         alert("Incorrect password");
       }
