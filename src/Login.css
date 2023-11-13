@@ -1,0 +1,70 @@
+.login-container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(./images/sign-up.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.login-container-main {
+  position: absolute;
+  width: 400px;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: rgba(59, 59, 59, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(92, 91, 91, 0.1);
+  backdrop-filter: blur(1.1px);
+  -webkit-backdrop-filter: blur(1.1px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.login-container .login-container-main form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.login-container .login-container-main form .form-group input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-inline: 0.2rem;
+  border-radius: 10px;
+}
+
+.login-container .login-container-main form button {
+  margin-top: 2rem;
+}
+
+.login-container-main .login-link {
+  margin-bottom: unset;
+  padding: unset;
+}
+
+.login-container-main .login-link a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container-main {
+    width: 80%;
+  }
+}
