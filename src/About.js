@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import "./About.css";
 
 const About = () => {
@@ -29,21 +35,113 @@ const About = () => {
           <img src="team-member-1.jpg" alt="Team Member 1" />
           <h3>John Doe</h3>
           <p>Co-founder & Fitness Expert</p>
+          <div className="team-social-media-links">
+            <a
+              href="https://www.facebook.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a
+              href="https://www.twitter.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a
+              href="https://www.instagram.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>
         </div>
         <div className="team-member">
           <img src="team-member-2.jpg" alt="Team Member 2" />
           <h3>Jane Smith</h3>
           <p>Co-founder & Nutrition Specialist</p>
+          <div className="team-social-media-links">
+            <a
+              href="https://www.facebook.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a
+              href="https://www.twitter.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a
+              href="https://www.instagram.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>
         </div>
         <div className="team-member">
           <img src="team-member-3.jpg" alt="Team Member 3" />
           <h3>Michael Johnson</h3>
           <p>Lead Developer</p>
+          <div className="team-social-media-links">
+            <a
+              href="https://www.facebook.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a
+              href="https://www.twitter.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a
+              href="https://www.instagram.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>
         </div>
         <div className="team-member">
           <img src="team-member-4.jpg" alt="Team Member 4" />
           <h3>Emily White</h3>
           <p>UX/UI Designer</p>
+          <div className="team-social-media-links">
+            <a
+              href="https://www.facebook.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a
+              href="https://www.twitter.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a
+              href="https://www.instagram.com/healthtrackerplus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>
         </div>
       </section>
 
