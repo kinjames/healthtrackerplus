@@ -53,6 +53,21 @@
   opacity: 1;
 }
 
+/* Ipad and Tablets */
+
+@media screen and (max-width: 1040px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .navbar-links {
+    display: none;
+    border: 2px solid red;
+  }
+}
+
+/* mobile view */
+
 @media screen and (max-width: 480px) {
   .navbar {
     width: 90%;
@@ -67,8 +82,8 @@
     font-size: 2rem;
   }
 }
-
-@media screen and (min-width: 480px) {
+/* laptops and Big Computers */
+@media screen and (min-width: 1040px) {
   .hamburger-btn {
     display: none;
   }

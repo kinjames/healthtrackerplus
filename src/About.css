@@ -39,7 +39,6 @@
 
 .our-team h2 {
   text-align: center;
-  /* margin-bottom: 8px; */
 }
 
 .line {
@@ -89,6 +88,7 @@
 
 .team-member p {
   margin: 1rem 0;
+  font-size: 1rem;
 }
 
 .team-social-media-links {
@@ -100,6 +100,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,8 +108,32 @@
   color: #ffffff;
 }
 
-/* .team-social-media-links a i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+/* Tablets Ipad */
+
+@media screen and (max-width: 1040px) {
+  .team-member,
+  .how-it-wokrs-img {
+    width: 90%;
+  }
+
+  .how-it-works,
+  .team-members {
+    width: 100%;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+  }
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 600px) {
+  .team-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-us h1 {
+    font-size: 1.5rem;
+  }
+}
