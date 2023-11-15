@@ -16,8 +16,10 @@ const About = () => {
         </h1>
       </div>
       <section className="how-it-works">
+        <div className="how-it-wokrs-img"></div>
         <div className="how-it-works-text">
           <h2>How Health Tracker Plus Works</h2>
+          <div className="line"></div>
           <p>
             Health Tracker Plus helps you monitor and improve your well-being by
             providing tools to set health goals, track your progress, and stay
@@ -26,121 +28,131 @@ const About = () => {
             to input your data and easily track your progress over time.
           </p>
         </div>
-        <div className="how-it-wokrs-img"></div>
       </section>
 
       <section className="our-team">
         <h2>Meet Our Team</h2>
-        <div className="team-member">
-          <img src="team-member-1.jpg" alt="Team Member 1" />
-          <h3>John Doe</h3>
-          <p>Co-founder & Fitness Expert</p>
-          <div className="team-social-media-links">
-            <a
-              href="https://www.facebook.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a
-              href="https://www.twitter.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a
-              href="https://www.instagram.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
+        <div className="line"></div>
+        <div className="team-members">
+          <div className="team-member">
+            <div className="team-image">
+              <img src="" alt="" />
+            </div>
+            <h3>John Doe</h3>
+            <p>Co-founder & Fitness Expert</p>
+            <div className="team-social-media-links">
+              <a
+                href="https://www.facebook.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a
+                href="https://www.twitter.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a
+                href="https://www.instagram.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="team-member">
-          <img src="team-member-2.jpg" alt="Team Member 2" />
-          <h3>Jane Smith</h3>
-          <p>Co-founder & Nutrition Specialist</p>
-          <div className="team-social-media-links">
-            <a
-              href="https://www.facebook.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a
-              href="https://www.twitter.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a
-              href="https://www.instagram.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
+          <div className="team-member">
+            <div className="team-image">
+              <img src="" alt="" />
+            </div>
+            <h3>Jane Smith</h3>
+            <p>Co-founder & Nutrition Specialist</p>
+            <div className="team-social-media-links">
+              <a
+                href="https://www.facebook.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a
+                href="https://www.twitter.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a
+                href="https://www.instagram.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="team-member">
-          <img src="team-member-3.jpg" alt="Team Member 3" />
-          <h3>Michael Johnson</h3>
-          <p>Lead Developer</p>
-          <div className="team-social-media-links">
-            <a
-              href="https://www.facebook.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a
-              href="https://www.twitter.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a
-              href="https://www.instagram.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
+          <div className="team-member">
+            <div className="team-image">
+              <img src="" alt="" />
+            </div>
+            <h3>Michael Johnson</h3>
+            <p>Lead Developer</p>
+            <div className="team-social-media-links">
+              <a
+                href="https://www.facebook.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a
+                href="https://www.twitter.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a
+                href="https://www.instagram.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="team-member">
-          <img src="team-member-4.jpg" alt="Team Member 4" />
-          <h3>Emily White</h3>
-          <p>UX/UI Designer</p>
-          <div className="team-social-media-links">
-            <a
-              href="https://www.facebook.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a
-              href="https://www.twitter.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a
-              href="https://www.instagram.com/healthtrackerplus"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
+          <div className="team-member">
+            <div className="team-image">
+              <img src="" alt="" />
+            </div>
+            <h3>Emily White</h3>
+            <p>UX/UI Designer</p>
+            <div className="team-social-media-links">
+              <a
+                href="https://www.facebook.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a
+                href="https://www.twitter.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a
+                href="https://www.instagram.com/healthtrackerplus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
         </div>
       </section>
