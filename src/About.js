@@ -159,38 +159,50 @@ const About = () => {
 
       <section className="testimonials">
         <h2>What Our Users Say</h2>
-        <div className="testimonial">
-          <p>
-            "Health Tracker Plus has transformed my fitness journey. The
-            exercise library is extensive, and the dashboard makes it easy to
-            track my progress. Highly recommended!"
-          </p>
-          <p className="user-info">- Alex Brown, Fitness Enthusiast</p>
+        <div className="line"></div>
+        <div className="testimonial-container">
+          <div className="testimonial">
+            <p>
+              "Health Tracker Plus has transformed my fitness journey. The
+              exercise library is extensive, and the dashboard makes it easy to
+              track my progress. Highly recommended!"
+            </p>
+            <p className="user-info">
+              - Alex Brown, <span>Fitness Enthusiast</span>
+            </p>
+          </div>
+          <div className="testimonial">
+            <p>
+              "As a nutritionist, I appreciate the comprehensive features of
+              Health Tracker Plus. It's an invaluable tool for both
+              professionals and individuals seeking to improve their health."
+            </p>
+            <p className="user-info">
+              - Sarah Miller, <span>Nutritionist</span>
+            </p>
+          </div>
+          <div className="testimonial">
+            <p>
+              "The team behind Health Tracker Plus is exceptional. Their
+              expertise is evident in the app's design and functionality. Kudos
+              to the team!"
+            </p>
+            <p className="user-info">
+              - David Turner, <span>Fitness Blogger</span>
+            </p>
+          </div>
+          {/* <div className="testimonial">
+            <p>
+              "I've tried various health apps, but Health Tracker Plus stands
+              out with its user-friendly interface and helpful features. A
+              must-have for anyone on a fitness journey."
+            </p>
+            <p className="user-info">- Jessica Lee, Health Enthusiast</p>
+          </div> */}
         </div>
-        <div className="testimonial">
-          <p>
-            "As a nutritionist, I appreciate the comprehensive features of
-            Health Tracker Plus. It's an invaluable tool for both professionals
-            and individuals seeking to improve their health."
-          </p>
-          <p className="user-info">- Sarah Miller, Nutritionist</p>
-        </div>
-        <div className="testimonial">
-          <p>
-            "The team behind Health Tracker Plus is exceptional. Their expertise
-            is evident in the app's design and functionality. Kudos to the
-            team!"
-          </p>
-          <p className="user-info">- David Turner, Fitness Blogger</p>
-        </div>
-        <div className="testimonial">
-          <p>
-            "I've tried various health apps, but Health Tracker Plus stands out
-            with its user-friendly interface and helpful features. A must-have
-            for anyone on a fitness journey."
-          </p>
-          <p className="user-info">- Jessica Lee, Health Enthusiast</p>
-        </div>
+      </section>
+      <section className="footer">
+        <p>James Kofi Myers &copy; 2023</p>
       </section>
     </div>
   );
