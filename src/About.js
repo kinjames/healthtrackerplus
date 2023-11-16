@@ -36,7 +36,7 @@ const About = () => {
         <div className="team-members">
           <div className="team-member">
             <div className="team-image">
-              <img src="" alt="" />
+              <img src=".././images/about.jpg" alt="" />
             </div>
             <h3>John Doe</h3>
             <p>Co-founder & Fitness Expert</p>
