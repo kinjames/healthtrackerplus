@@ -5,6 +5,11 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import team1 from "../src/images/team-1.jpg";
+import team2 from "../src/images/team-2.jpg";
+import team3 from "../src/images/team-3.jpg";
+import team4 from "../src/images/team-4.jpg";
+import overlay from "../src/images/img3-overlay.jpg";
 import "./About.css";
 
 const About = () => {
@@ -16,7 +21,9 @@ const About = () => {
         </h1>
       </div>
       <section className="how-it-works">
-        <div className="how-it-wokrs-img"></div>
+        <div className="how-it-wokrs-img">
+          <img src={overlay} alt="Overlay-Image" className="overlay-image" />
+        </div>
         <div className="how-it-works-text">
           <h2>How Health Tracker Plus Works</h2>
           <div className="line"></div>
@@ -36,7 +43,7 @@ const About = () => {
         <div className="team-members">
           <div className="team-member">
             <div className="team-image">
-              <img src=".././images/about.jpg" alt="" />
+              <img src={team1} alt="Member 1" />
             </div>
             <h3>John Doe</h3>
             <p>Co-founder & Fitness Expert</p>
@@ -66,7 +73,7 @@ const About = () => {
           </div>
           <div className="team-member">
             <div className="team-image">
-              <img src="" alt="" />
+              <img src={team2} alt="Member 2" />
             </div>
             <h3>Jane Smith</h3>
             <p>Co-founder & Nutrition Specialist</p>
@@ -96,7 +103,7 @@ const About = () => {
           </div>
           <div className="team-member">
             <div className="team-image">
-              <img src="" alt="" />
+              <img src={team3} alt="Member 3" />
             </div>
             <h3>Michael Johnson</h3>
             <p>Lead Developer</p>
@@ -126,7 +133,7 @@ const About = () => {
           </div>
           <div className="team-member">
             <div className="team-image">
-              <img src="" alt="" />
+              <img src={team4} alt="Member 4" />
             </div>
             <h3>Emily White</h3>
             <p>UX/UI Designer</p>
