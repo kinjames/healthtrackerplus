@@ -1,48 +1,64 @@
 import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import "./Exercise.css";
 import axios from "axios";
+import { Await } from "react-router-dom";
 
 const Exercise = () => {
-  const [exercises, setExercises] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const API_URL = "http://exercisedb.p.rapidapi.com/exercises/exercise"; // Base URL without parameters
+
+  const searchExercise = async (name) => {
+    try {
+      const response = await axios.get(API_URL, {
+        params: {
+          s: name, // Assuming 'name' is the search parameter
+        },
+        headers: {
+          "x-rapidapi-key":
+            "59bc7b4248msh5c8d1a6fc497d3ap13dca1jsn0658bd38bf33",
+          "x-rapidapi-host": "exercisedb.p.rapidapi.com",
+        },
+      });
+      console.log(response.data);
+      // Handle the response data here
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      // Handle error cases
+    }
+  };
+
+  // const [exercises, setExercises] = useState([]);
+  // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchData = async () => {
-      const options = {
-        method: "GET",
-        url: "https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises",
-        params: { muscle: "biceps" },
-        headers: {
-          "X-RapidAPI-Key":
-            "59bc7b4248msh5c8d1a6fc497d3ap13dca1jsn0658bd38bf33",
-          "X-RapidAPI-Host": "exercises-by-api-ninjas.p.rapidapi.com",
-        },
-      };
-
-      try {
-        const response = await axios.request(options);
-        setExercises(response.data);
-        setLoading(false);
-      } catch (error) {
-        console.error(error);
-        setLoading(false);
-      }
-    };
-
-    fetchData();
+    searchExercise("air bike");
   }, []);
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  // if (loading) {
+  //   return <div>Loading...</div>;
+  // }
 
   return (
     <div className="exercise-page">
-      <h2>Exercise Page</h2>
-      <ul>
+      <div className="exercise">
+        <h1>Exercise Page</h1>
+      </div>
+      <div className="search">
+        <input
+          type="text"
+          placeholder="Search for Exercises"
+          value="Push Up"
+          onChange={() => {}}
+        />
+
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
+      </div>
+      {/* <ul>
         {exercises.map((exercise) => (
           <li key={exercise.id}>{exercise.name}</li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };

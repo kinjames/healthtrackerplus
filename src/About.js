@@ -22,7 +22,7 @@ const About = () => {
       </div>
       <section className="how-it-works">
         <div className="how-it-wokrs-img">
-          <img src={overlay} alt="Overlay-Image" className="overlay-image" />
+          <img src={overlay} alt="Overlay" className="overlay-image" />
         </div>
         <div className="how-it-works-text">
           <h2>How Health Tracker Plus Works</h2>
