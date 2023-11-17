@@ -16,6 +16,30 @@
   color: white;
 }
 
+/* Tablets Ipad */
+
+@media screen and (max-width: 1040px) {
+  .exercise {
+    height: 30vh;
+  }
+  .contact-form-details {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  .map {
+    width: 90%;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+  }
+
+  .map iframe {
+    width: 100%;
+  }
+}
+
 /* Mobile View */
 
 @media screen and (max-width: 600px) {
@@ -24,7 +48,7 @@
     height: 100px;
   }
 
-  .about-us h1 {
+  .exercise h1 {
     font-size: 1.5rem;
   }
   .how-it-works-text {
