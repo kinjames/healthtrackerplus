@@ -16,17 +16,44 @@
   color: white;
 }
 
+.search {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  height: 40px;
+  border: 2px solid #4caf50;
+  outline: none;
+  border-radius: 10px;
+  width: 600px;
+  padding-inline: 1rem;
+  font-size: 1.25rem;
+}
+
+.search .icons {
+  position: absolute;
+  right: 25%;
+  font-size: 1.25rem;
+}
+
 /* Tablets Ipad */
 
 @media screen and (max-width: 1040px) {
   .exercise {
     height: 30vh;
   }
-  .contact-form-details {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem 0;
+  .search {
+    width: 90%;
+  }
+
+  .search .icons {
+    right: 20%;
   }
 
   .map {
@@ -43,19 +70,19 @@
 /* Mobile View */
 
 @media screen and (max-width: 600px) {
-  .team-image {
-    width: 100px;
-    height: 100px;
-  }
-
   .exercise h1 {
     font-size: 1.5rem;
-  }
-  .how-it-works-text {
-    padding: 0.5rem;
   }
 
   .exercise {
     height: 40vh;
+  }
+  .search {
+    width: 90%;
+    padding: 1.5rem 0.5rem;
+  }
+
+  .search .icons {
+    right: 10%;
   }
 }

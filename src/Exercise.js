@@ -52,7 +52,7 @@ const Exercise = () => {
           onChange={() => {}}
         />
 
-        <FontAwesomeIcon icon={faMagnifyingGlass} />
+        <FontAwesomeIcon icon={faMagnifyingGlass} className="icons" />
       </div>
       {/* <ul>
         {exercises.map((exercise) => (
