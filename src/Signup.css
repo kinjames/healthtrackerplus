@@ -3,6 +3,7 @@
   min-height: 100vh;
   position: relative;
   display: flex;
+  padding: 2rem 0;
   flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url(./images/sign-up.jpg);
@@ -64,11 +65,24 @@
   margin-top: 1rem;
 }
 
+/* Tablets Ipad */
+
+@media screen and (max-width: 1040px) {
+  .signup-container {
+    width: 100%;
+    padding: 3rem 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  .signup-container {
+    width: 100%;
+    padding: 4rem 0;
+  }
   .signup-container-main {
     width: 90%;
     padding: 1rem 0.5rem;
-    height: 75%;
+    height: 80%;
     gap: 1rem;
   }
   .signup-container .signup-container-main .signup-text {
