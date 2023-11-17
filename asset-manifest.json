@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/healthtrackerplus/static/css/main.082050df.css",
-    "main.js": "/healthtrackerplus/static/js/main.ea08840d.js",
+    "main.css": "/healthtrackerplus/static/css/main.9bfdcf48.css",
+    "main.js": "/healthtrackerplus/static/js/main.659f3b43.js",
     "static/js/787.2fe83e7c.chunk.js": "/healthtrackerplus/static/js/787.2fe83e7c.chunk.js",
-    "static/media/img3-overlay.jpg": "/healthtrackerplus/static/media/img3-overlay.095e01fd9417f0c15db1.jpg",
+    "static/media/img3-overlay.jpg": "/healthtrackerplus/static/media/img3-overlay.9781322ba0020d50b8d6.jpg",
     "static/media/about.jpg": "/healthtrackerplus/static/media/about.46360ac5c1e32ebfab70.jpg",
     "static/media/sign-up.jpg": "/healthtrackerplus/static/media/sign-up.15b3b03c661afa606cbb.jpg",
     "static/media/bg-image.jpg": "/healthtrackerplus/static/media/bg-image.112cb9c23e7d28daa236.jpg",
+    "static/media/exercises.jpg": "/healthtrackerplus/static/media/exercises.11d2d3bd0330eac626c3.jpg",
     "static/media/contact us.jpg": "/healthtrackerplus/static/media/contact us.4d2e983465c43e3bef2e.jpg",
     "static/media/team-4.jpg": "/healthtrackerplus/static/media/team-4.63f8725675d6bc3658a8.jpg",
     "index.html": "/healthtrackerplus/index.html",
-    "main.082050df.css.map": "/healthtrackerplus/static/css/main.082050df.css.map",
-    "main.ea08840d.js.map": "/healthtrackerplus/static/js/main.ea08840d.js.map",
+    "main.9bfdcf48.css.map": "/healthtrackerplus/static/css/main.9bfdcf48.css.map",
+    "main.659f3b43.js.map": "/healthtrackerplus/static/js/main.659f3b43.js.map",
     "787.2fe83e7c.chunk.js.map": "/healthtrackerplus/static/js/787.2fe83e7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.082050df.css",
-    "static/js/main.ea08840d.js"
+    "static/css/main.9bfdcf48.css",
+    "static/js/main.659f3b43.js"
   ]
 }
