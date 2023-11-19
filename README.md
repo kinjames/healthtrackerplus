@@ -1,5 +1,7 @@
 # HealthTracker+ Website
 
+![HealthTracker+](./src/images/main-img.png)
+
 Welcome to the HealthTracker+ website repository! HealthTracker+ is a comprehensive health and fitness platform designed to help users achieve their fitness goals, monitor their progress, and access valuable health-related resources.
 
 ## Features
@@ -71,3 +73,15 @@ HealthTracker+ is designed to simplify the process of staying healthy and fit. U
 
 ![Desktop Design](./src/images/main-img.png)
 ![Mobile Design](./src/images/mobile-view.png)
+
+### Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1140px
+
+## Author
+
+- Frontend Mentor - [@kinjames](https://www.frontendmentor.io/profile/kinjames)
+- Twitter - [@TheBlackCoder7](https://twitter.com/TheBlackCoder7)
