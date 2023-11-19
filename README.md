@@ -62,6 +62,12 @@ HealthTracker+ is designed to simplify the process of staying healthy and fit. U
   - Perform continuous testing and bug fixing.
 
 - **Week 4: Testing and Iteration**
+
   - Conduct extensive QA testing.
   - Gather feedback from beta testing phase.
   - Implement necessary improvements and optimizations.
+
+  ### Screenshots
+
+![Desktop Design](./src/images/main-img.png)
+![Mobile Design](./src/images/mobile-view.png)
