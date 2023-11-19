@@ -35,7 +35,8 @@ HealthTracker+ is designed to simplify the process of staying healthy and fit. U
 
 ## Third-Party Services Used
 
-- Google Maps API (for location-based services, if applicable)
+- Google Maps API (for location-based services)
+- Exercise API (for exercises services)
 
 ## Challenges
 
