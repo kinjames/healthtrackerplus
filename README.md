@@ -83,5 +83,5 @@ The designs were created to the following widths:
 
 ## Author
 
-- Frontend Mentor - [@kinjames](https://www.frontendmentor.io/profile/kinjames)
+- Githum - [@kinjames](https://github.com/kinjames)
 - Twitter - [@TheBlackCoder7](https://twitter.com/TheBlackCoder7)
