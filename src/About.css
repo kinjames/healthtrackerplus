@@ -161,6 +161,9 @@
   text-align: center;
   color: #4caf50;
 }
+
+/*  larger Screens */
+
 /* Tablets Ipad */
 
 @media screen and (max-width: 1040px) {
