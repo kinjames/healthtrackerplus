@@ -8,6 +8,14 @@
   height: 100%;
 }
 
+/* Larger Screen */
+
+@media screen and (max-width: 1060px) {
+  .dashboard-container {
+    width: 100%;
+  }
+}
+
 /* Mobile View */
 
 @media screen and (max-width: 600px) {
