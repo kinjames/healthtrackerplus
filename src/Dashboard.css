@@ -7,3 +7,11 @@
   width: 1140px;
   height: 100%;
 }
+
+/* Mobile View */
+
+@media screen and (max-width: 600px) {
+  .dashboard-container {
+    width: 100%;
+  }
+}
