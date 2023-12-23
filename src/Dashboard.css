@@ -13,6 +13,7 @@
 @media screen and (max-width: 1060px) {
   .dashboard-container {
     width: 100%;
+    height: 100%;
   }
 }
 
